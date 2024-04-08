@@ -6,7 +6,9 @@
 trigger:
 - master
 
-pool: skm-pool
+pool:
+  name: skm-pool
+  vmImage : ubuntu-latest
   
 
 steps:
